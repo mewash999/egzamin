@@ -1,0 +1,7 @@
+version: '3'
+services:
+  httpd:
+    build: .
+    container_name: my_httpd
+    ports:
+      - "80:80"
